@@ -1,0 +1,22 @@
+{
+  "name": "steve-folio",
+  "version": "1.0.0",
+  "description": "Steve Gojkov Portfolio",
+  "main": "index.js",
+  "scripts": {
+    "build:css": "tailwind build src/style.css -o dist/style.css",
+    "buildit": "postcss src/*.css --dir -o dist/style.css"
+  },
+  "author": "Steve Gojkov",
+  "license": "ISC",
+  "dependencies": {
+    "autoprefixer": "^9.7.3",
+    "jquery": "^3.4.1",
+    "tailwindcss": "^1.1.4"
+  },
+  "devDependencies": {
+    "@fullhuman/postcss-purgecss": "^1.3.0",
+    "postcss": "^7.0.26",
+    "postcss-cli": "^6.1.3"
+  }
+}
